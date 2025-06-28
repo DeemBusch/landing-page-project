@@ -106,14 +106,16 @@ button {
   display: flex;
   justify-content: center;
   gap: 52px;
+  padding: 1rem 10rem;
 }
 
 .info {
-  max-width: 200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
+
 
 .info img {
   NEED TO ADD INFO
