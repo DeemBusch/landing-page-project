@@ -1,12 +1,20 @@
 body {
-  margin-left: 100px;
-  margin-right: 100px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #1F2937;
 }
 
 .header {
   background-color: #1F2937;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 16px; /* adds space on top, bottom, left, and right inside header section */
+}
+
+.header-logo {
+  font-weight: 600; /* makes logo bold */
 }
 
 ul {
@@ -14,9 +22,14 @@ ul {
   padding: 0; /* removes left padding */
   margin: 0; /* removes top/bottom margin */
   color: white;
+  display: flex;
+  flex-direction: row; 
+  gap: 16px; /* adds space between items in list */
 }
 
 li a {
   text-decoration: none; /* removes underline */
   color: inherit;
 }
+
+
