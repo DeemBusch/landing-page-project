@@ -133,19 +133,20 @@ button {
 /* QUOTE */
 
 .quote-container {
-  background-color: #E5E7EB;
+  /* border: 2px solid #ccc; */
   display: flex;
   flex-direction: column;
-  padding: 5rem 15rem;
+  align-items: flex-start;
+  padding: 5rem 13rem;
+  background-color: #E5E7EB;  
 }
 
 .quote {
-  display: flex;
-  align-items: flex-start;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: ;
+  color: #1F2937;
+}
 }
 
-.quote-author {
-  display: flex;
-  align-items: flex-end;
-}
 /* FOOTER */
