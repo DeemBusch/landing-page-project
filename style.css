@@ -1,16 +1,20 @@
 .header {
-  display: flex;
   margin-left: 40px;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.nav {
   display: flex;
   justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
