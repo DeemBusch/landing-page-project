@@ -9,59 +9,96 @@
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="header">
       <div class="logo">Header Logo</div>
-      <nav class="navbar">
-        <a href="https://google.com">header link one</a>
-        <a href="https://google.com">header link two</a>
-        <a href="https://google.com">header link three</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="https://google.com">Header Link One</a></li>
+          <li><a href="https://google.com">Header Link Two</a></li>
+          <li><a href="https://google.com">Header Link Three</a></li>
+        </ul>
       </nav>
     </header>
     <!--Hero Section-->
-      <section class="hero">
-        <div class="hero-left">
-          <div class="hero-main-text">This website is awesome</div>
-          <div class="hero-secondary-text">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</div>
-          <button class="sign-up">Sign up</button>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-main-text">This website is awesome</h1>
+          <p class="hero-secondary-text">
+            This website has some subtext that goes here under the main title.
+            It's smaller font and the color is lower contrast.
+          </p>
+          <button type="button" class="hero-sign-up">Sign up</button>
         </div>
-        <div class="hero-right">
-          <img src="https://placehold.co/600x400?text=Placeholder" alt="Placeholder Image">
+        <div class="hero-image">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhdwallpaperspulse.com%2Fwp-content%2Fuploads%2F2013%2F05%2Fsangeh-monkey-forest-10.jpg&f=1&nofb=1&ipt=8344d16f706e04cde32936c559c4f5906e81af2027efc76712274497744140e2"
+            width="450"
+            height="300"
+            alt="Hero Placeholder Image"
+          >
         </div>
-      </section>
-    </header>
-    <main>
-      <section class="main-info">
-        <div class="main-info-title">Some Random Information</div>
-        <div class="main-info-container">
-          <div class="info">
-            <img src="https://placehold.co/100?text=Placeholder" alt="Placeholder Image">
-            <div class="text">This is some subtext under an illustration or image</div>
-          </div>
-          <div class="info">
-            <img src="https://placehold.co/100?text=Placeholder" alt="Placeholder Image">
-            <div class="text">This is some subtext under an illustration or image</div>
-          </div>
-          <div class="info">
-            <img src="https://placehold.co/100?text=Placeholder" alt="Placeholder Image">
-            <div class="text">This is some subtext under an illustration or image</div>
-          </div>
-          <div class="info">
-            <img src="https://placehold.co/100?text=Placeholder" alt="Placeholder Image">
-            <div class="text">This is some subtext under an illustration or image</div>
-          </div>
-        </div>
-      </section>
-      <section class="quote-container">
-        <blockquote class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
-        <cite class="quote-author">-Thor, God of Thunder</cite>
-      </section>
+      </div>
+    </section>
+    <br>
+    <!--Card Section-->
+    <main class="main-info">
+      <h1 class="main-info-title">Some Random Information</h1>
+      <div class="figure-container">
+        <figure>
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1775421.jpg&f=1&nofb=1&ipt=01deafae9d8f2a614c241bf446949cd61edba88acc111673e702b6deba10a8fd"
+            width="300" 
+            height="200"
+            alt="Elephant at sunset">
+          <figcaption>An elephant at sunset</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1775421.jpg&f=1&nofb=1&ipt=01deafae9d8f2a614c241bf446949cd61edba88acc111673e702b6deba10a8fd"
+            width="300" 
+            height="200"
+            alt="Elephant at sunset">
+          <figcaption>An elephant at sunset</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1775421.jpg&f=1&nofb=1&ipt=01deafae9d8f2a614c241bf446949cd61edba88acc111673e702b6deba10a8fd"
+            width="300" 
+            height="200"
+            alt="Elephant at sunset">
+          <figcaption>An elephant at sunset</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1775421.jpg&f=1&nofb=1&ipt=01deafae9d8f2a614c241bf446949cd61edba88acc111673e702b6deba10a8fd"
+            width="300" 
+            height="200"
+            alt="Elephant at sunset">
+          <figcaption>An elephant at sunset</figcaption>
+        </figure>
+      </div>
     </main>
+    <br>
+    <!--Quote Container-->
+    <section class="quote-container">
+      <blockquote class="quote">
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
+      </blockquote>
+      <cite class="quote-author">-Thor, God of Thunder</cite>
+    </section>
+    <br>
+    <!--Footer Section-->
     <footer>
       <div class="call-to-action-left">
         <p class="cta-main-text">Call to action! It's time!</p>
-        <p class="cta-secondary-text">Sign up for our product by clicking the button right over there!</p>
+        <p class="cta-secondary-text">
+          Sign up for our product by clicking the button right over there!
+        </p>
       </div>
-      <button class="cta-sign-up">Sign up</button>
+      <button type="button" class="cta-sign-up">Sign up</button>
     </footer>
   </body>
 </html>
