@@ -8,26 +8,22 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <!--Header-->
     <header class="header">
-      <div class="left-header">
-        <div class="logo">Header Logo</div>
-      </div>
-      <div class="right-header">
-        <nav class="nav">
-          <ul class="nav-list">
-            <li><a href="https://google.com">Header Link One</a></li>
-            <li><a href="https://google.com">Header Link Two</a></li>
-            <li><a href="https://google.com">Header Link Three</a></li>
-          </ul>
-        </nav>
-      </div>
+      <div class="logo">Header Logo</div>
+      <nav class="nav-links">
+        <a href="https://google.com">Header Link One</a>
+        <a href="https://google.com">Header Link Two</a>
+        <a href="https://google.com">Header Link Three</a>
+      </nav>
     </header>
+
     <!--Hero Section-->
-    <section class="hero">
-      <div class="hero-content">
+    <main>
+      <section class="hero">
         <div class="hero-text">
-          <h1 class="hero-main-text">This website is awesome</h1>
+          <h1>This website is awesome</h1>
           <p class="hero-secondary-text">
             This website has some subtext that goes here under the main title.
             It's smaller font and the color is lower contrast.
@@ -35,74 +31,60 @@
           <button type="button" class="hero-sign-up">Sign up</button>
         </div>
         <div class="hero-image">
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhdwallpaperspulse.com%2Fwp-content%2Fuploads%2F2013%2F05%2Fsangeh-monkey-forest-10.jpg&f=1&nofb=1&ipt=8344d16f706e04cde32936c559c4f5906e81af2027efc76712274497744140e2"
-            width="450"
-            height="300"
-            alt="Hero Placeholder Image"
-          >
+          <p>this is a placeholder image</p>
         </div>
-      </div>
-    </section>
-    <br>
+      </section>
+
     <!--Card Section-->
-    <main class="main-info">
-      <h1 class="main-info-title">Some Random Information</h1>
-      <div class="figure-container">
-        <figure>
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1775421.jpg&f=1&nofb=1&ipt=01deafae9d8f2a614c241bf446949cd61edba88acc111673e702b6deba10a8fd"
-            width="300" 
-            height="200"
-            alt="Elephant at sunset">
-          <figcaption>An elephant at sunset</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1775421.jpg&f=1&nofb=1&ipt=01deafae9d8f2a614c241bf446949cd61edba88acc111673e702b6deba10a8fd"
-            width="300" 
-            height="200"
-            alt="Elephant at sunset">
-          <figcaption>An elephant at sunset</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1775421.jpg&f=1&nofb=1&ipt=01deafae9d8f2a614c241bf446949cd61edba88acc111673e702b6deba10a8fd"
-            width="300" 
-            height="200"
-            alt="Elephant at sunset">
-          <figcaption>An elephant at sunset</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1775421.jpg&f=1&nofb=1&ipt=01deafae9d8f2a614c241bf446949cd61edba88acc111673e702b6deba10a8fd"
-            width="300" 
-            height="200"
-            alt="Elephant at sunset">
-          <figcaption>An elephant at sunset</figcaption>
-        </figure>
-      </div>
-    </main>
-    <br>
+      <section class="info">
+        <h2 class="main-info-title">Some Random Information</h2>
+        <div class="info-cards">
+          <figure class="card">
+            <div class="box"></div>
+            <figcaption>this is some subtext under an illustration or image</figcaption>
+          </figure>
+          <figure class="card">
+            <div class="box"></div>
+            <figcaption>this is some subtext under an illustration or image</figcaption>
+          </figure>
+          <figure class="card">
+            <div class="box"></div>
+            <figcaption>this is some subtext under an illustration or image</figcaption>
+          </figure>
+          <figure class="card">
+            <div class="box"></div>
+            <figcaption>this is some subtext under an illustration or image</figcaption>
+          </figure>
+        </div>
+      </section>
+
     <!--Quote Container-->
-    <section class="quote-container">
-      <blockquote class="quote">
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's
-        just filling up space, or maybe people will actually read it. Who knows?
-        All I know is that it looks nice.
-      </blockquote>
-      <cite class="quote-author">-Thor, God of Thunder</cite>
-    </section>
-    <br>
+      <section class="quote">
+        <blockquote>
+          <p>
+            This is an inspiring quote, or a testimonial from a customer. Maybe it's
+            just filling up space, or maybe people will actually read it. Who knows?
+            All I know is that it looks nice.
+          </p>
+          <cite>-Thor, God of Thunder</cite>
+        </blockquote>
+      </section>
+
+    <!--Call to Action Section-->
+      <section class="cta">
+        <div class="cta-left">
+          <p class="cta-main-text">Call to action! It's time!</p>
+          <p class="cta-secondary-text">
+          Sign up for our product by clicking the button right over there!
+          </p>
+        </div>
+        <button type="button" class="cta-sign-up">Sign up</button>
+      </section>
+    </main>
+
     <!--Footer Section-->
     <footer>
-      <div class="call-to-action-left">
-        <p class="cta-main-text">Call to action! It's time!</p>
-        <p class="cta-secondary-text">
-          Sign up for our product by clicking the button right over there!
-        </p>
-      </div>
-      <button type="button" class="cta-sign-up">Sign up</button>
+      <p>Copyright © The Odin Project 2021</p>
     </footer>
   </body>
 </html>
